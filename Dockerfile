@@ -8,7 +8,8 @@ RUN pip install pybind11 && \
   pip install jupyter && \
   pip install numpy && \
   pip install scikit-learn && \
-  pip install pandas
+  pip install pandas && \
+  pip install tensorflow
 
 EXPOSE 8888
 
