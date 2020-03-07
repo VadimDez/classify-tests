@@ -11,7 +11,7 @@ docker build -t classify .
 ### Run
 
 ```
-docker run -p 8888:8888 -v ~/Documents/my_dev/ml-tests/notebooks:/notebooks -d classify
+docker run -p 8888:8888 -v ~/Documents/my_dev/ml-tests/:/notebooks -d classify
 ```
 
 ### Edit
